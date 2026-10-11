@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "astroTestProject",
   "type": "module",
   "version": "0.0.1",
   "engines": {
@@ -12,7 +12,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/vercel": "^11.0.13",
     "astro": "^7.3.8"
+  },
+  "devDependencies": {
+    "@astrojs/vercel": "^11.0.12"
   }
 }

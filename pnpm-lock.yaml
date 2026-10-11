@@ -8,12 +8,13 @@ importers:
 
   .:
     dependencies:
-      '@astrojs/vercel':
-        specifier: ^11.0.13
-        version: 11.0.13(astro@7.3.8(@vercel/functions@3.9.11)(yaml@2.9.1))
       astro:
         specifier: ^7.3.8
         version: 7.3.8(@vercel/functions@3.9.11)(yaml@2.9.1)
+    devDependencies:
+      '@astrojs/vercel':
+        specifier: ^11.0.12
+        version: 11.0.13(astro@7.3.8(@vercel/functions@3.9.11)(yaml@2.9.1))
 
 packages:
 
